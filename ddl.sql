@@ -10,6 +10,7 @@ CREATE DATABASE test DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci
 -- Display the creation information fo the database
 show create database test;
 -- Revise the codes of the database
+alter database <数据库名> character set utf8;
 -- Delete a database
 drop database test;
 -- **Table level**
